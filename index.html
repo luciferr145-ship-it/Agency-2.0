@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lumora — Independent Design & Engineering Studio</title>
+<meta name="description" content="Lumora is an independent studio crafting brands, products, and the systems that connect them — bold ideas, shipped with quiet precision." />
+<meta name="theme-color" content="#0a0a0a" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- PageLoader -->
+<div id="loader">
+  <div class="loader-center">
+    <div class="brand-row"><span class="icon">
+      <svg viewBox="0 0 48 48" fill="currentColor"><path d="M24 2c2.2 13.8 7.9 19.6 22 22-14.1 2.4-19.8 8.2-22 22-2.2-13.8-7.9-19.6-22-22 14.1-2.4 19.8-8.2 22-22Z"/></svg>
+    </span>Lumora</div>
+    <p class="tagline">Bold ideas, shipped with quiet precision.</p>
+  </div>
+  <div class="progress-block">
+    <div class="track"><div class="fill" id="loader-fill"></div></div>
+    <div class="progress-row">
+      <span>Loading</span>
+      <span class="count" id="loader-count">000</span>
+    </div>
+  </div>
+</div>
+
+<header id="site-header">
+  <div class="shell header-inner">
+    <a href="index.html" class="brand-btn hover-spring">
+      <span class="icon"><svg viewBox="0 0 48 48" fill="currentColor"><path d="M24 2c2.2 13.8 7.9 19.6 22 22-14.1 2.4-19.8 8.2-22 22-2.2-13.8-7.9-19.6-22-22 14.1-2.4 19.8-8.2 22-22Z"/></svg></span>
+      Lumora
+    </a>
+    <nav class="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html" aria-current="page"><span class="nav-item">Home</span></a></li>
+        <li><a href="work.html"><span class="nav-item">Work</span></a></li>
+        <li><a href="services.html"><span class="nav-item">Services<span class="caret">▾</span></span></a></li>
+        <li><a href="studio.html"><span class="nav-item">Studio</span></a></li>
+        <li><a href="careers.html"><span class="nav-item">Careers</span></a></li>
+        <li><a href="contact.html"><span class="nav-item">Contact</span></a></li>
+      </ul>
+    </nav>
+    <div class="header-right">
+      <div class="clock-chip">
+        <span class="label">Local time</span>
+        <span class="time" id="clock-time">9:41am</span>
+        <span class="sep">•</span>
+        <span class="date" id="clock-date">12 March, 2025</span>
+      </div>
+      <button class="menu-btn" data-menu="open">
+        <span class="inner">
+          <span class="icon" style="font-size:.875rem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></span>
+          <span class="menu-word">Menu</span>
+        </span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section id="home">
+    <div class="liquid-reveal" id="liquid-reveal">
+      <img id="hero-base-img" src="https://api.getlayers.ai/storage/v1/object/public/public/assets/lumora-e8b711fc68/hero/after.jpg" alt="Lumora studio work" />
+      <canvas aria-hidden="true"></canvas>
+    </div>
+    <div class="hero-vignette"></div>
+    <div class="hero-watermark reveal" id="hero-watermark" data-ready-delay="300">LUMORA</div>
+
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="hero-eyebrow reveal reveal-fade up" data-ready-delay="200"><span class="dot"></span>Independent Studio</div>
+        <h1 class="hero-h1" id="hero-h1">
+          <span class="line-wrap"><span class="line-inner">Bold ideas,</span></span>
+          <span class="line-wrap"><span class="line-inner">shipped with</span></span>
+          <span class="line-wrap"><span class="line-inner">quiet precision</span></span>
+        </h1>
+        <div class="rating-row reveal reveal-fade up" data-ready-delay="650">
+          <span class="stars">
+            <span class="icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 5.88 6.49.94-4.7 4.58 1.11 6.46L12 17.9l-5.8 3.05 1.1-6.46-4.69-4.58 6.49-.94L12 2.5z"/></svg></span>
+            <span class="icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 5.88 6.49.94-4.7 4.58 1.11 6.46L12 17.9l-5.8 3.05 1.1-6.46-4.69-4.58 6.49-.94L12 2.5z"/></svg></span>
+            <span class="icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 5.88 6.49.94-4.7 4.58 1.11 6.46L12 17.9l-5.8 3.05 1.1-6.46-4.69-4.58 6.49-.94L12 2.5z"/></svg></span>
+            <span class="icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 5.88 6.49.94-4.7 4.58 1.11 6.46L12 17.9l-5.8 3.05 1.1-6.46-4.69-4.58 6.49-.94L12 2.5z"/></svg></span>
+            <span class="icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 5.88 6.49.94-4.7 4.58 1.11 6.46L12 17.9l-5.8 3.05 1.1-6.46-4.69-4.58 6.49-.94L12 2.5z"/></svg></span>
+          </span>
+          <span class="rating-text">200+ brands shipped</span>
+        </div>
+        <div class="cta-row reveal reveal-fade up" data-ready-delay="750">
+          <button class="pill-btn dark with-arrow" data-modal="open">
+            <span class="pill-inner">Let's Talk<span class="pill-badge arrow-right"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+          </button>
+          <button class="pill-btn outline no-arrow" data-scroll="works">
+            <span class="pill-inner">View Work</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-card reveal reveal-scale" id="hero-carousel" data-ready-delay="400">
+          <div class="row">
+            <div class="tile"><span class="icon"><svg viewBox="0 0 48 48" fill="currentColor"><path d="M24 2c2.2 13.8 7.9 19.6 22 22-14.1 2.4-19.8 8.2-22 22-2.2-13.8-7.9-19.6-22-22 14.1-2.4 19.8-8.2 22-22Z"/></svg></span></div>
+            <div class="panel">
+              <div class="slot" id="carousel-slot">
+                <div class="item" data-i="0"><div class="caption">Conversion design</div><div class="title">Crafted to convert.</div></div>
+                <div class="item" data-i="1" style="opacity:0"><div class="caption">Engineering</div><div class="title">Built to scale.</div></div>
+                <div class="item" data-i="2" style="opacity:0"><div class="caption">Brand systems</div><div class="title">Designed to last.</div></div>
+              </div>
+              <div class="bottom-row">
+                <div class="dots">
+                  <span class="active"></span><span></span><span></span>
+                </div>
+                <div class="nav-btns">
+                  <button class="prev" aria-label="Previous"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+                  <button class="next" aria-label="Next"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="partners reveal reveal-fade up" data-ready-delay="550">
+          <div class="label">Trusted by</div>
+          <div class="grid">
+            <span class="item"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2" fill="currentColor" stroke="none"/></svg></span>Kaido</span>
+            <span class="item"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2" fill="currentColor" stroke="none"/></svg></span>Northpeak</span>
+            <span class="item"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2" fill="currentColor" stroke="none"/></svg></span>Vellum</span>
+            <span class="item"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2" fill="currentColor" stroke="none"/></svg></span>Orbit</span>
+            <span class="item"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2" fill="currentColor" stroke="none"/></svg></span>Brightline</span>
+            <span class="item"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2" fill="currentColor" stroke="none"/></svg></span>Cobalt</span>
+            <span class="item"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2" fill="currentColor" stroke="none"/></svg></span>Mesa</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-status shell reveal reveal-fade" data-ready-delay="900">
+      <span>Working since 2014</span>
+      <span class="center">Remote-first, worldwide</span>
+      <span class="right">Scroll to explore <span>↓</span></span>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="shell">
+      <div class="about-globe">
+        <span class="bg-globe icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="9.25"/><path d="M12 2.75c2.6 2.3 4 5.8 4 9.25s-1.4 6.95-4 9.25c-2.6-2.3-4-5.8-4-9.25s1.4-6.95 4-9.25zM2.75 12h18.5"/></svg></span>
+        <div class="eyebrow dark" style="position:relative"><span class="dot"></span>The Studio</div>
+        <div class="foot reveal reveal-fade up">
+          <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="9.25"/><path d="M12 2.75c2.6 2.3 4 5.8 4 9.25s-1.4 6.95-4 9.25c-2.6-2.3-4-5.8-4-9.25s1.4-6.95 4-9.25zM2.75 12h18.5"/></svg></span>
+          <span><span>A distributed team building across every time zone.</span></span>
+        </div>
+      </div>
+      <div class="about-statement">
+        <h2 class="about-h2 word-reveal reveal" id="about-h2"></h2>
+        <div class="about-foot reveal reveal-fade up" data-delay-index="1">
+          <div>
+            <div class="find">Find us online</div>
+            <div class="socials">
+              <a href="#" class="social x hover-spring"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4l16 16M20 4 4 20"/></svg></span></a>
+              <a href="#" class="social other hover-spring"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2" fill="currentColor" stroke="none"/></svg></span></a>
+              <a href="#" class="social other hover-spring"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2" fill="currentColor" stroke="none"/></svg></span></a>
+            </div>
+          </div>
+          <a class="pill-btn outline with-arrow" href="studio.html">
+            <span class="pill-inner">About Us<span class="pill-badge arrow-right"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CreateBand -->
+  <section id="create">
+    <ul>
+      <li class="reveal reveal-big"><div class="create-tile light hover-spring">We</div></li>
+      <li class="reveal reveal-big"><div class="create-tile accent hover-spring">Build</div></li>
+      <li class="reveal reveal-big"><div class="create-tile dark hover-spring"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></li>
+      <li class="reveal reveal-big"><div class="create-tile ghost hover-spring">Better</div></li>
+    </ul>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="works">
+    <div class="shell">
+      <div class="works-head">
+        <div class="eyebrow dark pill reveal reveal-fade">Portfolio</div>
+        <h2 class="works-h2"><span class="line-wrap"><span class="line-inner">Selected Work</span></span></h2>
+        <a href="work.html" class="anim-link" style="font-size:.875rem;font-weight:500;color:rgba(17,17,17,.6);border-bottom:1px solid #e6e5e2;padding-bottom:2px"><span class="inner">View all projects →</span></a>
+      </div>
+      <ul class="works-grid">
+        <li class="reveal reveal-big">
+          <a href="aster-labs.html" class="work-card hover-spring">
+            <div class="work-meta"><span>Branding — 2025</span><span class="work-badge"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span></span></div>
+            <div class="work-watermark"><span class="icon"><svg viewBox="0 0 48 48" fill="currentColor"><path d="M24 2c2.2 13.8 7.9 19.6 22 22-14.1 2.4-19.8 8.2-22 22-2.2-13.8-7.9-19.6-22-22 14.1-2.4 19.8-8.2 22-22Z"/></svg></span><span class="reg">®</span></div>
+            <div class="work-bottom">
+              <h3>Aster Labs</h3>
+              <p>A complete identity and go-to-market system for a fast-moving research startup.</p>
+              <div class="tags"><span class="tag-chip light">Branding</span><span class="tag-chip light">Strategy</span><span class="tag-chip light">Design</span></div>
+            </div>
+          </a>
+        </li>
+        <li class="reveal reveal-big">
+          <a href="nova-finance.html" class="work-card hover-spring">
+            <div class="work-meta"><span>Product — 2024</span><span class="work-badge"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span></span></div>
+            <div class="work-watermark"><span class="icon"><svg viewBox="0 0 48 48" fill="currentColor"><path d="M24 2c2.2 13.8 7.9 19.6 22 22-14.1 2.4-19.8 8.2-22 22-2.2-13.8-7.9-19.6-22-22 14.1-2.4 19.8-8.2 22-22Z"/></svg></span><span class="reg">®</span></div>
+            <div class="work-bottom">
+              <h3>Nova Finance</h3>
+              <p>A finance platform reimagined — clear data, calm interfaces, and effortless flows.</p>
+              <div class="tags"><span class="tag-chip light">Product Design</span><span class="tag-chip light">Web App</span><span class="tag-chip light">QA</span></div>
+            </div>
+          </a>
+        </li>
+        <li class="reveal reveal-big">
+          <a href="helio-studio.html" class="work-card hover-spring">
+            <div class="work-meta"><span>Identity — 2023</span><span class="work-badge"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span></span></div>
+            <div class="work-watermark"><span class="icon"><svg viewBox="0 0 48 48" fill="currentColor"><path d="M24 2c2.2 13.8 7.9 19.6 22 22-14.1 2.4-19.8 8.2-22 22-2.2-13.8-7.9-19.6-22-22 14.1-2.4 19.8-8.2 22-22Z"/></svg></span><span class="reg">®</span></div>
+            <div class="work-bottom">
+              <h3>Helio Studio</h3>
+              <p>A bold visual identity and art direction system built to scale across every surface.</p>
+              <div class="tags"><span class="tag-chip light">Brand Identity</span><span class="tag-chip light">Art Direction</span></div>
+            </div>
+          </a>
+        </li>
+        <li class="reveal reveal-big">
+          <a href="pulse-health.html" class="work-card hover-spring">
+            <div class="work-meta"><span>Mobile — 2023</span><span class="work-badge"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span></span></div>
+            <div class="work-watermark"><span class="icon"><svg viewBox="0 0 48 48" fill="currentColor"><path d="M24 2c2.2 13.8 7.9 19.6 22 22-14.1 2.4-19.8 8.2-22 22-2.2-13.8-7.9-19.6-22-22 14.1-2.4 19.8-8.2 22-22Z"/></svg></span><span class="reg">®</span></div>
+            <div class="work-bottom">
+              <h3>Pulse Health</h3>
+              <p>A wellness app grounded in research, shipped end to end from concept to release.</p>
+              <div class="tags"><span class="tag-chip light">Mobile App</span><span class="tag-chip light">UX Research</span><span class="tag-chip light">Development</span></div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="shell">
+      <div class="eyebrow dark reveal reveal-fade">Services</div>
+      <h2 class="services-h2"><span class="line-wrap"><span class="line-inner">What we do best</span></span></h2>
+      <ul>
+        <li class="service-item reveal reveal-fade up">
+          <a href="services.html#development" class="service-row">
+            <span class="service-index">01</span>
+            <h3 class="service-title">Software Development</h3>
+            <p class="service-desc">Scalable web & mobile products built to last.</p>
+            <span class="service-badge"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span></span>
+          </a>
+        </li>
+        <li class="service-item reveal reveal-fade up">
+          <a href="services.html#design" class="service-row">
+            <span class="service-index">02</span>
+            <h3 class="service-title">Product Design</h3>
+            <p class="service-desc">Interfaces that feel effortless and look sharp.</p>
+            <span class="service-badge"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span></span>
+          </a>
+        </li>
+        <li class="service-item reveal reveal-fade up">
+          <a href="services.html#qa" class="service-row">
+            <span class="service-index">03</span>
+            <h3 class="service-title">Quality Assurance</h3>
+            <p class="service-desc">Rigorous testing for flawless, confident releases.</p>
+            <span class="service-badge"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span></span>
+          </a>
+        </li>
+        <li class="service-item reveal reveal-fade up">
+          <a href="services.html#consulting" class="service-row">
+            <span class="service-index">04</span>
+            <h3 class="service-title">Consulting</h3>
+            <p class="service-desc">Strategy and direction for ambitious teams.</p>
+            <span class="service-badge"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section id="stats-section">
+    <div class="shell">
+      <div class="stats-panel reveal reveal-panel">
+        <div class="eyebrow light"><span class="dot"></span>By the numbers</div>
+        <h2 class="stats-h2"><span class="line-wrap"><span class="line-inner">Proof in the work, not the words.</span></span></h2>
+        <ul class="stats-grid">
+          <li class="reveal reveal-fade up">
+            <div class="stat-number"><span class="stat-count" data-value="150" data-suffix="+">0</span><span class="stat-suffix">+</span></div>
+            <div class="stat-label">Projects delivered</div>
+          </li>
+          <li class="reveal reveal-fade up">
+            <div class="stat-number"><span class="stat-count" data-value="98" data-suffix="%">0</span><span class="stat-suffix">%</span></div>
+            <div class="stat-label">Client retention</div>
+          </li>
+          <li class="reveal reveal-fade up">
+            <div class="stat-number"><span class="stat-count" data-value="12" data-suffix="">0</span><span class="stat-suffix"></span></div>
+            <div class="stat-label">Years of craft</div>
+          </li>
+          <li class="reveal reveal-fade up">
+            <div class="stat-number"><span class="stat-count" data-value="40" data-suffix="+">0</span><span class="stat-suffix">+</span></div>
+            <div class="stat-label">Team members</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+
+
+<footer>
+  <div class="shell">
+    <div class="footer-cta">
+      <h2 class="footer-h2">
+        <span class="line-wrap"><span class="line-inner">Have a project in mind?</span></span>
+        <span class="line-wrap"><span class="line-inner">Let's get to work.</span></span>
+      </h2>
+      <button class="pill-btn light with-arrow" data-modal="open">
+        <span class="pill-inner">Start a project<span class="pill-badge arrow-up-right"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span></span>
+      </button>
+    </div>
+    <div class="footer-cols">
+      <div class="footer-col">
+        <div class="footer-brand"><span class="icon"><svg viewBox="0 0 48 48" fill="currentColor"><path d="M24 2c2.2 13.8 7.9 19.6 22 22-14.1 2.4-19.8 8.2-22 22-2.2-13.8-7.9-19.6-22-22 14.1-2.4 19.8-8.2 22-22Z"/></svg></span>Lumora</div>
+        <p class="footer-tagline">An independent studio crafting brands, products, and the systems that connect them.</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Company</div>
+        <ul>
+          <li><a href="studio.html" class="anim-link"><span class="inner">About</span></a></li>
+          <li><a href="careers.html" class="anim-link"><span class="inner">Careers</span></a></li>
+          <li><a href="studio.html#partners" class="anim-link"><span class="inner">Partners</span></a></li>
+          <li><a href="contact.html" class="anim-link"><span class="inner">Contact</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Services</div>
+        <ul>
+          <li><a href="services.html#development" class="anim-link"><span class="inner">Development</span></a></li>
+          <li><a href="services.html#design" class="anim-link"><span class="inner">Design</span></a></li>
+          <li><a href="services.html#qa" class="anim-link"><span class="inner">Quality Assurance</span></a></li>
+          <li><a href="services.html#consulting" class="anim-link"><span class="inner">Consulting</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Social</div>
+        <ul>
+          <li><a href="#" class="anim-link"><span class="inner">X / Twitter</span></a></li>
+          <li><a href="#" class="anim-link"><span class="inner">Behance</span></a></li>
+          <li><a href="#" class="anim-link"><span class="inner">Dribbble</span></a></li>
+          <li><a href="#" class="anim-link"><span class="inner">LinkedIn</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal-bar">
+      <span>© 2025 Lumora Studio. All rights reserved.</span>
+      <div class="legal-links">
+        <a href="#" class="anim-link legal"><span class="inner">Privacy</span></a>
+        <a href="#" class="anim-link legal"><span class="inner">Terms</span></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-watermark">LUMORA</div>
+</footer>
+
+<nav id="nav-menu" aria-hidden="true">
+  <div class="shell top-bar">
+    <div class="brand"><span class="icon"><svg viewBox="0 0 48 48" fill="currentColor"><path d="M24 2c2.2 13.8 7.9 19.6 22 22-14.1 2.4-19.8 8.2-22 22-2.2-13.8-7.9-19.6-22-22 14.1-2.4 19.8-8.2 22-22Z"/></svg></span>Lumora</div>
+    <button class="close-btn" data-menu="close"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4l16 16M20 4 4 20"/></svg></span>Close</button>
+  </div>
+  <nav aria-label="Full menu">
+    <ul>
+      <li><a class="menu-item" href="index.html" style="transition-delay:80ms"><span class="idx">01</span><span class="label">Home</span></a></li>
+      <li><a class="menu-item" href="work.html" style="transition-delay:125ms"><span class="idx">02</span><span class="label">Work</span></a></li>
+      <li><a class="menu-item" href="services.html" style="transition-delay:170ms"><span class="idx">03</span><span class="label">Services</span></a></li>
+      <li><a class="menu-item" href="studio.html" style="transition-delay:215ms"><span class="idx">04</span><span class="label">Studio</span></a></li>
+      <li><a class="menu-item" href="careers.html" style="transition-delay:260ms"><span class="idx">05</span><span class="label">Careers</span></a></li>
+      <li><a class="menu-item" href="contact.html" style="transition-delay:305ms"><span class="idx">06</span><span class="label">Contact</span></a></li>
+    </ul>
+  </nav>
+  <div class="shell bottom-bar">
+    <span id="menu-local-time">Local time</span>
+    <button class="start-link" data-modal="open">Start a project →</button>
+  </div>
+</nav>
+
+<div id="request-modal" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="panel">
+    <button class="modal-close" data-modal="close"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4l16 16M20 4 4 20"/></svg></span></button>
+
+    <div class="modal-head" id="modal-head">
+      <div class="kicker"><span class="dot"></span>Start a project</div>
+      <h2>Tell us what you're building.</h2>
+    </div>
+
+    <form id="request-form">
+      <label>
+        <span class="cap">Name</span>
+        <input type="text" name="name" required placeholder="Your name" />
+      </label>
+      <label>
+        <span class="cap">Email</span>
+        <input type="email" name="email" required placeholder="you@company.com" />
+      </label>
+      <label>
+        <span class="cap">Project</span>
+        <textarea name="project" rows="4" required placeholder="A few words about your project, timeline, and budget."></textarea>
+      </label>
+      <div class="modal-bottom">
+        <span class="note">We reply within one business day.</span>
+        <button class="pill-btn dark with-arrow" type="submit" id="submit-btn">
+          <span class="pill-inner" id="submit-label">Send request<span class="pill-badge arrow-up-right"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span></span>
+        </button>
+      </div>
+    </form>
+
+    <div class="modal-success" id="modal-success">
+      <div class="badge"><span class="icon"><svg viewBox="0 0 48 48" fill="currentColor"><path d="M24 2c2.2 13.8 7.9 19.6 22 22-14.1 2.4-19.8 8.2-22 22-2.2-13.8-7.9-19.6-22-22 14.1-2.4 19.8-8.2 22-22Z"/></svg></span></div>
+      <h2>Request received</h2>
+      <p>Thanks for reaching out — we'll get back to you within one business day.</p>
+      <button class="pill-btn dark no-arrow" id="success-close"><span class="pill-inner">Close</span></button>
+    </div>
+  </div>
+</div>
+
+<script type="importmap">
+{ "imports": { "lenis": "https://unpkg.com/lenis@1.3.23/dist/lenis.mjs" } }
+</script>
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>
